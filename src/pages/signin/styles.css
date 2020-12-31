@@ -1,0 +1,90 @@
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.signInMain{
+    width: 50%;
+    padding-right: 5%;
+    padding-left: 5%;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title{
+    margin-left: auto;
+    font-family: var(--font-family-Muli);
+    font-size: var(--font-size-large);
+}
+
+.subtitle{
+    color: var(--color-text);
+    font-family: var(--font-family-Muli);
+    font-size: var(--font-size-large);
+}
+
+.form{
+    width: 60%;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.forgot{
+    margin-left: auto;
+    padding: 1rem;
+
+    font-family: var(--font-family-Muli);
+    font-size: var(--font-size-small);
+    color: var(--color-dark);
+}
+.divider{
+    width: 60%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.divider > p{
+    display: flex;
+    font-size: var(--font-size-regular);
+    color: var(--color-text);
+    font-family: var(--font-family-Muli);
+}
+.signInBtn{
+    width: 30%;
+    height: 4rem;
+    background-color: var(--color-button);
+    border-radius: 20px;
+    color: var(--color-text-light);
+    border: 0;
+}
+.googleBtn{
+    width: 46%;
+    height: 4rem;
+    background-color: var(--color-text-light);
+    border-radius: 20px;
+    color: var(--color-text-dark);
+    border: 0;
+    box-shadow: 1px 5px 5px var(--color-text);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.imgG{
+    width: 10%;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-family: var(--font-family-Muli);
+    font-size: var(--font-size-small);
+    color: var(--color-text);
+}
