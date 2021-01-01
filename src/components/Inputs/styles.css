@@ -25,3 +25,8 @@
     color: var(--color-title);
     font-size: var(--font-size-small);
   }
+
+  input:invalid {
+    border-radius: 8px;
+    border: 2px solid red;
+  }

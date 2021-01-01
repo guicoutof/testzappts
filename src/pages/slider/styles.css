@@ -3,4 +3,29 @@
     height: 100%;
 
     background-color: var(--color-background);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+.componentImg{
+    width: 70%;
+}
+.carouselText{
+    width: 60%;
+
+    text-align: center;
+
+    color: var(--color-text-light);
+    font-family: var(--font-family-Muli);
+}
+.carouselTitle{
+    font-size: var(--font-size-large);
+    margin: 4%;
+}
+.carouselSubTitle{
+    font-size: var(--font-size-regular);
 }

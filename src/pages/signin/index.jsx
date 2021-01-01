@@ -12,6 +12,14 @@ function Signin(){
     const [email, setEmail] = useState();
     const [password, setPassword] = useState();
 
+    function handleSignIn(){
+        if(!email || !password){
+            alert('Preencha todos os campos !!');
+        }else {
+            alert(`Login com email: ${email} e senha: ${password}`);
+        }
+    }
+
     return(
         <div className="container">
             <Slider />
@@ -33,18 +41,19 @@ function Signin(){
                         name="password" 
                         type='password' 
                         value={password}
+                        minLength="6"
                         onChange={e => setPassword(e.target.value)}
                     />
                     <a className="forgot">Forgot password?</a>
                 </form>       
 
 
-                <button className="signInBtn">Sign In</button>
+                <button className="signInBtn" onClick={() => handleSignIn()}>Sign In</button>
 
                 <div className="divider">
-                    <hr style={{width: '40%'}}></hr>
+                    <hr style={{width: '34%'}}></hr>
                     <p>Or</p>
-                    <hr style={{width: '40%'}}></hr>
+                    <hr style={{width: '34%'}}></hr>
                 </div>
 
                 <button className="googleBtn">

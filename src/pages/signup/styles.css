@@ -1,8 +1,25 @@
-.textPolicy{
+.policy{
     width: 80%;
-}
-.textPolicy > p{
-    font-family: var(--font-family-Muli);
-    font-size: var(--font-size-regular);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
     color: var(--color-text);
+    font-size: var(--font-size-small);
+    font-family: var(--font-family-Muli);
+}
+.policy > span {
+    width: 100%;
+    text-align: center;
+
+}
+.policyTerms{
+    width: 100%;
+    text-align: center;
+}
+.terms{
+    text-align: center;
+    margin-right: 1%;
 }
