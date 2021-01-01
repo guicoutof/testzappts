@@ -8,7 +8,7 @@
   
   .input-block label {
     font-family: var(--font-family-Muli);
-    font-size: var(--font-size-small);
+    font-size: var(--font-size-regular);
     color: var(--color-button);
   }
   
@@ -23,7 +23,7 @@
 
     font-family: var(--font-family-Muli);
     color: var(--color-title);
-    font-size: var(--font-size-small);
+    font-size: var(--font-size-regular);
   }
 
   input:invalid {

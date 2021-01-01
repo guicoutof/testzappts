@@ -6,8 +6,7 @@
 
 .signInMain{
     width: 50%;
-    padding-right: 5%;
-    padding-left: 5%;
+    padding: 4%;
 
     display: flex;
     justify-content: space-evenly;
@@ -106,3 +105,15 @@
     font-size: var(--font-size-small);
     color: var(--color-text);
 }
+
+@media screen and (max-width: 600px) {
+    .container {
+      flex-direction: column;
+    }
+
+    .signInMain{
+        width: 100%;
+        height: 100%;
+        padding: 1%;
+    }
+  }
